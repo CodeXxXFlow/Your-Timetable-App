@@ -14,13 +14,13 @@ st.markdown("""
         text-align: center;
         font-size: 40px;
         font-weight: bold;
-        color: #2E86C1;
+        color: #000000;
     }
     .period {
         padding: 10px;
         margin: 5px 0;
         border-radius: 10px;
-        background-color: #000000;
+        background-color: #fa8072;
     }
     .break {
         background-color: #FAD7A0;
