@@ -109,7 +109,7 @@ for period, subject in timetable[day]:
         st.markdown(f"<div class='period'>{period}: {subject}</div>", unsafe_allow_html=True)
 
 st.markdown(
-    '<p style="font-size:40px; font-weight:bold;">Be a sigma and pack your bags!</p>',
+    '<p style="font-size:24px; font-weight:bold;">Be a sigma and pack your bags!</p>',
     unsafe_allow_html=True
 )
 
