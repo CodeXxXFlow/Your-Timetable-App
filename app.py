@@ -21,6 +21,7 @@ st.markdown("""
         margin: 5px 0;
         border-radius: 10px;
         background-color: #fa8072;
+        font-weight: bold;
     }
     .break {
         background-color: #FAD7A0;
@@ -107,4 +108,8 @@ for period, subject in timetable[day]:
     else:
         st.markdown(f"<div class='period'>{period}: {subject}</div>", unsafe_allow_html=True)
 
-st.write("Be a sigma and pack your bags!")
+st.markdown(
+    '<p style="font-size:40px; font-weight:bold;">Be a sigma and pack your bags!</p>',
+    unsafe_allow_html=True
+)
+
